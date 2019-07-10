@@ -51,7 +51,7 @@
 
 var timerId =
   countdown(
-	new Date('July 17, 2019 23:59:59'),
+	new Date('July 7, 2019 23:59:59'),
     function(ts) {
       document.getElementById('timeToBuy').innerHTML = "Discount ends in " +ts.toString();
     },
