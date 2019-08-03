@@ -55,4 +55,4 @@ var timerId =
     function(ts) {
       document.getElementById('timeToBuy').innerHTML = "Discount ends in " +ts.toString();
     },
-    countdown.MONTHS|countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+	countdown.MONTHS|countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
